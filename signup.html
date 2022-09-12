@@ -7,20 +7,24 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <!-- Custom styles for this template -->
+
+  <!-- We do not add the public here because for some reason, it affects the server version -->
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
 
 <body class="text-center">
 
+<div class="container-fluid sm-6">
   <main class="form-signin w-100 m-auto">
 
     <form action="/" method="POST">
+        <!-- We do not add the public here because for some reason, it affects the server version -->
       <img class="mb-4" src="images/hello-friend.jpg" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Signup to my Newsletter</h1>
 
 
-      <input type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="firstName" class="form-control top" placeholder="First Name">
 
       <input type="text" name="lastName" class="form-control middle" placeholder="Last Name">
 
@@ -35,7 +39,7 @@
       <p class="mt-5 mb-3 text-muted">&copy; fega 2022</p>
     </form>
   </main>
-
+</div>
 
 
 </body>
