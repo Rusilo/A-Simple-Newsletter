@@ -43,7 +43,7 @@ const url = "https://us17.api.mailchimp.com/3.0/lists/3bcafa67a9"
 
 const options = {
   method: "POST",
-  auth: "fega1:fa9f19994fd870f4dfcf40ba7b21205df-us17"
+  auth: "fega1:a9f19994fd870f4dfcf40ba7b21205df-us17"
 }
 
 
